@@ -1,7 +1,53 @@
 .globalPadding {
   padding: 0 clamp(5rem, 10vw, 15rem);
 
-  @media (max-width: 700px) {
-    padding: 1.5rem;
+  @media (max-width: 1200px) {
+    padding: 0 5rem;
+  }
+
+  @media (max-width: 750px) {
+    padding: 3rem 1.5rem;
+  }
+}
+
+.globalH1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(3rem, 4vw, 5.5rem);
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.globalH3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  line-height: 100%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2B788B;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.globalP {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #585858;
+
+  @media (max-width: 768px) {
+    text-align: center;
   }
 }
