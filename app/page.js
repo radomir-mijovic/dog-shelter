@@ -11,8 +11,8 @@ const Page = () => {
         <>
             <Hero/>
             <HeroLower/>
-            <Reason/>
             <MeetBf/>
+            <Reason/>
             <Team/>
         </>
     );
