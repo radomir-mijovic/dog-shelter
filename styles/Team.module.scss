@@ -1,0 +1,62 @@
+.teamContainer {
+  background: #C3DCE3;
+  min-height: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.teamH1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(3rem, 4vw, 5.5rem);
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.teamP {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  line-height: 140%;
+  letter-spacing: .5px;
+  color: #585858;
+  text-align: center;
+  margin-bottom: 3.7rem;
+}
+
+.teamCardWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 2.4rem;
+
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.teamCard {
+  height: 20rem;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 15rem;
+  width: 15rem;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamCardH2 {
+  font-size: clamp(2.4rem, 2.5vw, 3.2rem)
+}

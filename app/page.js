@@ -4,6 +4,7 @@ import Hero from "./hero";
 import HeroLower from "./hero-lower";
 import Reason from "./reason";
 import MeetBf from "./meetBf";
+import Team from "./team";
 
 const Page = () => {
     return (
@@ -12,6 +13,7 @@ const Page = () => {
             <HeroLower/>
             <Reason/>
             <MeetBf/>
+            <Team/>
         </>
     );
 };
