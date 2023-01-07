@@ -29,10 +29,10 @@
 
 .teamCardWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
   gap: 2.4rem;
 
-  @media (max-width: 550px) {
+  @media (max-width: 640px) {
     grid-template-columns: 1fr;
   }
 }
@@ -44,12 +44,21 @@
   align-items: center;
   gap: 2rem;
   padding: 4rem;
+
+  @media (max-width: 320px) {
+    height: 15rem;
+  }
 }
 
 .imageWrapper {
   position: relative;
   height: 15rem;
   width: 15rem;
+
+  @media (max-width: 320px) {
+    height: 8rem;
+    width: 8rem;
+  }
 }
 
 .textWrapper {
