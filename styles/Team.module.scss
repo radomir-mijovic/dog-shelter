@@ -29,16 +29,16 @@
 
 .teamCardWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   gap: 2.4rem;
 
-  @media (max-width: 640px) {
+  @media (max-width: 540px) {
     grid-template-columns: 1fr;
   }
 }
 
 .teamCard {
-  height: 20rem;
+  height: 17rem;
   background: #FFFFFF;
   display: flex;
   align-items: center;
@@ -52,8 +52,13 @@
 
 .imageWrapper {
   position: relative;
-  height: 15rem;
-  width: 15rem;
+  height: 12rem;
+  width: 12rem;
+  margin-right: 4rem;
+
+  @media (max-width: 390px) {
+    margin-right: 0;
+  }
 
   @media (max-width: 320px) {
     height: 8rem;
@@ -67,5 +72,5 @@
 }
 
 .teamCardH2 {
-  font-size: clamp(2.4rem, 2.5vw, 3.2rem)
+  font-size: clamp(2.4rem, 2.5vw, 3.2rem);
 }
