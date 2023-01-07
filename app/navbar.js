@@ -16,7 +16,7 @@ const Navbar = () => {
             <motion.button
                 initial={{scale: 0}}
                 animate={{ scale: 1 }}
-                transition={{ type: "spring", stiffness: 100 }}
+                transition={{ type: "spring", stiffness: 100, delay: .5 }}
                 whileTap={{scale: .97}}
                 className={`${UIstyles.redButton}`}>
                 Doniraj

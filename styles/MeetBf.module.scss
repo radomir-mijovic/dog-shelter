@@ -1,0 +1,52 @@
+.meetContainer {
+  display: flex;
+  flex-direction: column;
+  background: #F4F4F4;
+}
+
+.meetHeaderText {
+  font-weight: 700;
+  font-size: clamp(2.2rem, 2.3vw, 2.6rem);
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.14em;
+  color: #2B788B;
+  margin: 3.4rem 0;
+}
+
+.dogsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 27rem);
+  gap: 5rem 2rem;
+  justify-content: center;
+}
+
+.dogCard {
+  height: 27rem;
+  position: relative;
+  border-radius: 50%;
+}
+
+.dogInfo {
+  bottom: -4rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 12rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  box-shadow: 0 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
+  border-radius: 88px;
+  background: #FFFFFF;
+}
+
+.dogInfoText {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+}

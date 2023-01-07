@@ -1,5 +1,5 @@
 .globalPadding {
-  padding: 0 clamp(5rem, 10vw, 15rem);
+  padding: 2rem clamp(5rem, 10vw, 15rem);
 
   @media (max-width: 1200px) {
     padding: 3rem 5rem;

@@ -3,6 +3,7 @@ import "../styles/global.css"
 import Hero from "./hero";
 import HeroLower from "./hero-lower";
 import Reason from "./reason";
+import MeetBf from "./meetBf";
 
 const Page = () => {
     return (
@@ -10,6 +11,7 @@ const Page = () => {
             <Hero/>
             <HeroLower/>
             <Reason/>
+            <MeetBf/>
         </>
     );
 };
