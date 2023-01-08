@@ -17,8 +17,7 @@ const HeroLower = () => {
                         poboljsajte njihov i vas zivot
                     </h3>
                     <h1 className={globalStyles.globalH1}>
-                        Ne kupuj,
-                        usvoji!
+                        Ne kupuj, udomi!
                     </h1>
                     <p className={globalStyles.globalP}>
                         Pozivamo sugrađane da posjete naše ljubimce utorkom i četvrtkom od 12h do 14h.

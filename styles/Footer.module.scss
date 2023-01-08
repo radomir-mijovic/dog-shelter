@@ -1,0 +1,19 @@
+.footerContainer {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.footerH3 {
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  line-height: 100%;
+  letter-spacing: 0.14em;
+  color: #2B788B;
+  cursor: pointer;
+}

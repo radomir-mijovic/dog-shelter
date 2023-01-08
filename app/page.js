@@ -6,6 +6,7 @@ import Reason from "./reason";
 import MeetBf from "./meetBf";
 import Team from "./team";
 import About from "./about";
+import Footer from "./footer";
 
 const Page = () => {
     return (
@@ -16,6 +17,7 @@ const Page = () => {
             <Reason/>
             <Team/>
             <About/>
+            <Footer/>
         </>
     );
 };
