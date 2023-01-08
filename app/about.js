@@ -26,11 +26,7 @@ const About = () => {
                 <Image
                     src={shelterImage}
                     objectFit={"cover"}
-                    // layout={"responsive"}
                     fill
-
-                    // height={350}
-                    // width={600}
                     alt="shelter image"/>
             </div>
         </section>
