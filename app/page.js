@@ -5,6 +5,7 @@ import HeroLower from "./hero-lower";
 import Reason from "./reason";
 import MeetBf from "./meetBf";
 import Team from "./team";
+import About from "./about";
 
 const Page = () => {
     return (
@@ -14,6 +15,7 @@ const Page = () => {
             <MeetBf/>
             <Reason/>
             <Team/>
+            <About/>
         </>
     );
 };
