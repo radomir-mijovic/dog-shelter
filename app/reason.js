@@ -13,7 +13,7 @@ const Reason = () => {
                 </h3>
                 <div>
                     <p className={styles.reasonP}>
-                        Usvjajanjem spasavate zivot
+                        Usvajanjem spasavate zivot
                     </p>
                     <p className={styles.reasonP}>
                         Pomazete u overpopulaciji zivotinja
@@ -45,9 +45,8 @@ const Reason = () => {
                 </div>
             </div>
             <div className={styles.imageWrapper}>
-                <Image src={animalImage} quality={100}  fill alt={"Dog walking"}/>
+                <Image src={animalImage} quality={100} fill alt={"Dog walking"}/>
             </div>
-
         </section>
     );
 };

@@ -14,7 +14,7 @@ const HeroLower = () => {
             <div className={styles.textContainer}>
                 <div className={styles.textWrapper}>
                     <h3 className={globalStyles.globalH3}>
-                        poboljsajte njihov i vas zivot
+                        uljepsajte njihov i vas zivot
                     </h3>
                     <h1 className={globalStyles.globalH1}>
                         Ne kupuj, udomi!

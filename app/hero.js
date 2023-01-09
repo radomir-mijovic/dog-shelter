@@ -11,7 +11,7 @@ const Hero = () => {
             <div className={styles.textContainer}>
                 <div className={styles.textWrapper}>
                     <h3 className={globalStyles.globalH3}>
-                        Svi zasluzuju prijatelja
+                        Svi zasluzuju dom
                     </h3>
                     <h1 className={globalStyles.globalH1}>
                         Azil za napustene zivotinje - Budva
